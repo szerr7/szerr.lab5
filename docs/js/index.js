@@ -1,4 +1,4 @@
-
+"use strict";
 /*      1.Define a function max() that takes two numbers as arguments and returns the 
 largest of them. Use the if-then-else construct available in Javascript. */
 const max = function(num1 ,num2){
@@ -35,7 +35,7 @@ console.log(maxOfThree(2,2,5))
 
 const isVowel = function(c){
 
-          if(c=='a' || c=='e' || c=='u' || c == 'i' || c=='o'){
+          if(c.charAt(0)=='a' || c=='e' || c=='u' || c == 'i' || c=='o'){
 
                      return true ;
           }
@@ -292,8 +292,9 @@ console.log(computeSumOfSquaresOfEvensOnly([1,2,3,4,5])) ;
 
  }
 
+printFibo(10) ;
 
- console.log(printFibo(10)) ;
+
 
 
 
